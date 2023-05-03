@@ -309,3 +309,75 @@ body{
     background-size: 60vh;
     border-radius: 18px;
 }
+
+
+.ad-eastpak .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-bottom: 1vh;
+}
+
+.ad-eastpak .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.ad-eastpak .header .subtitle {
+    color: grey;
+}
+
+.ad-eastpak .content {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 83vh;
+    margin-bottom: 3vh;
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+
+.ad-eastpak .content .yasuo{
+    border-radius: 18px;
+    width: 60%;
+    background: url("img/yasuo.jpg");
+    background-size: cover;
+}
+
+.ad-eastpak .content .lux{
+    border-radius: 18px;
+    width: 35%;
+    background: url("img/lux.jpg");
+    background-size: cover;
+}
+
+.ad-eastpak .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ad-eastpak .footer .line,.ad-eastpak .footer .line2, .ad-eastpak .footer .line3 {
+    border: 1px grey solid;
+}
+.ad-eastpak .footer .line {
+    width: 9%;
+}
+
+.ad-eastpak .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.ad-eastpak .footer .line2 {
+    width: 2%;
+}
+
+.ad-eastpak .footer .line3 {
+    width: 60%
+}
