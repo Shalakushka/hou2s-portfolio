@@ -1379,3 +1379,67 @@ body{
     border: 1px grey solid;
 }
 
+.motion-2023 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.motion-2023 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.motion-2023 .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.motion-2023 .header .subtitle {
+    color: grey;
+}
+
+.motion-2023 .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.motion-2023 .footer .line,.motion-2023 .footer .line2, .motion-2023 .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.motion-2023 .footer .line {
+    width: 9%;
+}
+
+.motion-2023 .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.motion-2023 .footer .line2 {
+    width: 2%;
+}
+
+.motion-2023 .footer .line3 {
+    width: 60%
+}
+
+.motion-2023 .content {
+    background-image: url("img/motion.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+}
