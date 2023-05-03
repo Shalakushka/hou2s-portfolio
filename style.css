@@ -1508,3 +1508,68 @@ body{
     margin-bottom: 5vh;
     height: 70vh;
 }
+
+.motion-big3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.motion-big3 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.motion-big3 .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.motion-big3 .header .subtitle {
+    color: grey;
+}
+
+.motion-big3 .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.motion-big3 .footer .line,.motion-big3 .footer .line2, .motion-big3 .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.motion-big3 .footer .line {
+    width: 9%;
+}
+
+.motion-big3 .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.motion-big3 .footer .line2 {
+    width: 2%;
+}
+
+.motion-big3 .footer .line3 {
+    width: 60%
+}
+
+.motion-big3 .content {
+    background-image: url("img/motion3.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+}
