@@ -381,3 +381,146 @@ body{
 .ad-eastpak .footer .line3 {
     width: 60%
 }
+
+.da-peacock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.da-peacock .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.da-peacock .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.da-peacock .header .subtitle {
+    color: grey;
+}
+
+.da-peacock .content {
+    display: flex;
+    height: 70vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 10vh;
+    margin-right: 5vh;
+}
+
+.da-peacock .content .peacock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36%;
+}
+
+.da-peacock .content .peacock p {
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    line-height: 4vh;
+}
+
+.da-peacock .content .peacock .illustration {
+    height: 25%;
+    display: flex;
+    gap: 1vh;
+}
+
+.da-peacock .content .peacock .illustration .peacock-mascot {
+    background: url("img/mascot.jpg");
+    background-size: 140%;
+    background-position: 1vh -2vh;
+    border-radius: 8px;
+    width: 55%;
+}
+
+.da-peacock .content .peacock .illustration .peacock-home {
+    width: 45%;
+    border-radius: 8px;
+    background: url("img/peacock_home.jpeg");
+    background-size: cover;
+}
+
+.da-peacock .content .arrow {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3vh;
+    width: 6%;
+    font-size: 12vh;
+    font-weight: 300;
+}
+
+.da-peacock .content .result {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+}
+
+.da-peacock .content .result .row {
+    height: 45%;
+    display: flex;
+}
+
+.da-peacock .content .result .logo-black {
+    width: 50%;
+    background-image: url("img/peacock_black_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.da-peacock .content .result .logo-white {
+    width: 50%;
+    background-image: url("img/peacock_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.da-peacock .content .result .catalog {
+    height: 55%;
+    background-image: url("img/peacock.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.da-peacock .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.da-peacock .footer .line,.da-peacock .footer .line2, .da-peacock .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.da-peacock .footer .line {
+    width: 9%;
+}
+
+.da-peacock .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.da-peacock .footer .line2 {
+    width: 2%;
+}
+
+.da-peacock .footer .line3 {
+    width: 60%
+}
+
