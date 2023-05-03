@@ -1573,3 +1573,69 @@ body{
     margin-bottom: 5vh;
     height: 70vh;
 }
+
+.ui-cica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ui-cica .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.ui-cica .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.ui-cica .header .subtitle {
+    color: grey;
+}
+
+.ui-cica .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.ui-cica .footer .line,.ui-cica .footer .line2, .ui-cica .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.ui-cica .footer .line {
+    width: 9%;
+}
+
+.ui-cica .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.ui-cica .footer .line2 {
+    width: 2%;
+}
+
+.ui-cica .footer .line3 {
+    width: 60%
+}
+
+.ui-cica .content {
+    background-image: url("img/cicaclic.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    border-radius:18px;
+}
