@@ -1176,3 +1176,70 @@ body{
     height: 100%;
     background-color: #42ebd4;
 }
+
+.pack-coca {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pack-coca .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.pack-coca .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.pack-coca .header .subtitle {
+    color: grey;
+}
+
+.pack-coca .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.pack-coca .footer .line,.pack-coca .footer .line2, .pack-coca .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.pack-coca .footer .line {
+    width: 9%;
+}
+
+.pack-coca .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.pack-coca .footer .line2 {
+    width: 2%;
+}
+
+.pack-coca .footer .line3 {
+    width: 60%
+}
+
+.pack-coca .content {
+    background-image: url("img/sum4.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    border-radius: 18px;
+}
+
