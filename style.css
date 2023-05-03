@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+
+body{
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+.line, .line2 {
+    border: 1px white solid;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.wrapper section {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home .header {
+    height: 80vh;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.home .title {
+    font-size: 80px;
+    font-weight: 1000;
+}
+
+.home .subhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .subtitle {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 30%;
+}
+
+.home .footer {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home .line {
+    width: 40%
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary .title {
+    font-size: 10vh;
+    font-weight: 1000;
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary .container {
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    gap: 6vh;
+    align-items: flex-start;
+}
+
+.summary .container .portfolio-link {
+    width: 25vh;
+    height: 65vh;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-shadow:  1px 1px 2px black;
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow:    inset 1px 1px 10px #333;
+    box-shadow:         inset 1px 1px 10px #333;
+    padding-top: 1vh;
+}
+
+.portfolio-link.sum1 {
+    background: url("img/sum1.jpg");
+    background-size: cover;
+    background-position: -12vh;
+}
+
+.portfolio-link.sum2 {
+    background: url("img/sum2.png");
+    background-size: 75vh;
+    background-position: 49vh -18vh;
+}
+
+.portfolio-link.sum3 {
+    background: url("img/sum3.jpg");
+    background-size: 60vh;
+    background-position: -20vh -20vh;
+}
+
+.portfolio-link.sum4 {
+    background: url("img/sum4.jpg");
+    background-size: 120vh;
+    background-position: -50vh -2vh;
+}
+
+.portfolio-link.sum5 {
+    background: url("img/sum5.jpg");
+    background-size: 40vh;
+    background-position: -12vh 0vh;
+}
+
+.portfolio-link.sum6 {
+    background: url("img/sum6.jpg");
+    background-size: 40vh;
+    background-position: -7vh -10vh;
+}
+
+.ad-elon {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ad-elon .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-top: 6vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.ad-elon .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.ad-elon .header .subtitle {
+    color: grey;
+}
+
+.ad-elon .content {
+    display: flex;
+    justify-content: center;
+    gap: 6vh;
+    align-items: flex-start;
+}
+.ad-elon .content .elon {
+    height: 62vh;
+    width: 58%;
+    border-radius: 16px;
+}
+
+.ad-elon .content .flower-lady {
+    height: 62vh;
+    width: 28%;
+    border-radius: 16px;
+}
+
+.ad-elon .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ad-elon .footer .line,.ad-elon .footer .line2 {
+    border: 1px grey solid;
+}
+.ad-elon .footer .line {
+    width: 9%;
+}
+
+.ad-elon .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+.ad-elon .footer .line2 {
+    width: 74%;
+}
+
