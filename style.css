@@ -1241,5 +1241,74 @@ body{
     margin-bottom: 5vh;
     height: 70vh;
     border-radius: 18px;
+    border: 1px grey solid;
+}
+
+
+.pack-pizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pack-pizza .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.pack-pizza .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.pack-pizza .header .subtitle {
+    color: grey;
+}
+
+.pack-pizza .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.pack-pizza .footer .line,.pack-pizza .footer .line2, .pack-pizza .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.pack-pizza .footer .line {
+    width: 9%;
+}
+
+.pack-pizza .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.pack-pizza .footer .line2 {
+    width: 2%;
+}
+
+.pack-pizza .footer .line3 {
+    width: 60%
+}
+
+.pack-pizza .content {
+    background-image: url("img/pizza.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    border-radius: 18px;
+    border: 1px grey solid;
 }
 
