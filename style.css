@@ -1639,3 +1639,65 @@ body{
     height: 70vh;
     border-radius:18px;
 }
+
+.ui-pub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ui-pub .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.ui-pub .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.ui-pub .header .subtitle {
+    color: grey;
+}
+
+.ui-pub .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.ui-pub .footer .line,.ui-pub .footer .line2, .ui-pub .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.ui-pub .footer .line {
+    width: 9%;
+}
+
+.ui-pub .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.ui-pub .footer .line2 {
+    width: 80%;
+}
+
+.ui-pub .content {
+    background-image: url("img/affiche.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    border-radius:18px;
+}
