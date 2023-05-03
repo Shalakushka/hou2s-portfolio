@@ -641,3 +641,98 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+.da-vinland {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.da-vinland .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.da-vinland .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.da-vinland .header .subtitle {
+    color: grey;
+}
+
+.da-vinland .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.da-vinland .footer .line,.da-vinland .footer .line2, .da-vinland .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.da-vinland .footer .line {
+    width: 9%;
+}
+
+.da-vinland .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.da-vinland .footer .line2 {
+    width: 2%;
+}
+
+.da-vinland .footer .line3 {
+    width: 60%
+}
+
+.da-vinland .content {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.da-vinland .content .vinland {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+}
+
+.da-vinland .content .vinland p {
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+.da-vinland .content .vinland .logo {
+    background-image : url("");
+    height: 20vh;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px white solid;
+}
+
+.da-vinland .content .poster {
+    background-image: url("img/vinland-poster.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 55%;
+    border-radius: 20px;
+}
+
