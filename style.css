@@ -1777,3 +1777,100 @@ body{
     height: 70vh;
     border-radius:18px;
 }
+
+.ia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ia .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.ia .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.ia .header .subtitle {
+    color: grey;
+}
+
+.ia .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.ia .footer .line,.ia .footer .line2, .ia .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.ia .footer .line {
+    width: 9%;
+}
+
+.ia .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.ia .footer .line2 {
+    width: 75%;
+}
+
+.ia .content {
+    background-image: url("img/stable.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+    border-radius:18px;
+}
+
+.ia .container {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.ia .container * {
+    border-radius: 18px;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+}
+
+.ia .container .ia1 {
+    background-image: url("img/ia1.png");
+
+}
+
+.ia .container .ia2 {
+    background-image: url("img/ia2.png");
+}
+
+.ia .container .ia3 {
+    background-image: url("img/ia3.png");
+}
+
+.ia .container .ia4 {
+    background-image: url("img/ia4.png");
+}
+
