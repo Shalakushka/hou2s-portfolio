@@ -736,3 +736,97 @@ body{
     border-radius: 20px;
 }
 
+.da-athletic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.da-athletic .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.da-athletic .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.da-athletic .header .subtitle {
+    color: grey;
+}
+
+.da-athletic .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.da-athletic .footer .line,.da-athletic .footer .line2, .da-athletic .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.da-athletic .footer .line {
+    width: 9%;
+}
+
+.da-athletic .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.da-athletic .footer .line2 {
+    width: 2%;
+}
+
+.da-athletic .footer .line3 {
+    width: 60%
+}
+
+.da-athletic .content {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    height: 60vh;
+}
+
+.da-athletic .content .athletic {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+}
+
+.da-athletic .content .athletic p {
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 2.5vh;
+    line-height: 4vh;
+}
+
+.da-athletic .content .athletic .video {
+    background-image : url("");
+    height: 20vh;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px white solid;
+}
+
+.da-athletic .content .poster {
+    background-image: url("img/mook.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 52%;
+    border-radius: 20px;
+}
