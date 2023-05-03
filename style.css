@@ -1443,3 +1443,68 @@ body{
     margin-bottom: 5vh;
     height: 70vh;
 }
+
+.motion-cocktail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.motion-cocktail .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.motion-cocktail .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.motion-cocktail .header .subtitle {
+    color: grey;
+}
+
+.motion-cocktail .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.motion-cocktail .footer .line,.motion-cocktail .footer .line2, .motion-cocktail .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.motion-cocktail .footer .line {
+    width: 9%;
+}
+
+.motion-cocktail .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.motion-cocktail .footer .line2 {
+    width: 2%;
+}
+
+.motion-cocktail .footer .line3 {
+    width: 60%
+}
+
+.motion-cocktail .content {
+    background-image: url("img/cocktail.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 70vh;
+}
