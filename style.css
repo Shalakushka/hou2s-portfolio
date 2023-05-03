@@ -1300,7 +1300,7 @@ body{
 }
 
 .pack-pizza .content {
-    background-image: url("img/pizza.png");
+    background-image: url("img/pizza.jpg");
     background-size: cover;
     background-position: center;
     margin-left: 35vh;
@@ -1829,7 +1829,7 @@ body{
 }
 
 .ia .content {
-    background-image: url("img/stable.png");
+    background-image: url("img/stable.jpg");
     background-size: cover;
     background-position: center;
     margin-left: 30vh;
@@ -1858,19 +1858,19 @@ body{
 }
 
 .ia .container .ia1 {
-    background-image: url("img/ia1.png");
+    background-image: url("img/ia1.jpg");
 
 }
 
 .ia .container .ia2 {
-    background-image: url("img/ia2.png");
+    background-image: url("img/ia2.jpg");
 }
 
 .ia .container .ia3 {
-    background-image: url("img/ia3.png");
+    background-image: url("img/ia3.jpg");
 }
 
 .ia .container .ia4 {
-    background-image: url("img/ia4.png");
+    background-image: url("img/ia4.jpg");
 }
 
