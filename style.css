@@ -99,12 +99,14 @@ body{
     border-radius: 13px;
     display: flex;
     justify-content: center;
+    color: white;
     font-size: 16px;
-    text-shadow:  1px 1px 2px black;
+    text-shadow:  2px 2px 4px black;
     -webkit-box-shadow: inset 1px 1px 10px #333;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
     padding-top: 1vh;
+    font-weight: 800;
 }
 
 .portfolio-link.sum1 {
@@ -116,7 +118,7 @@ body{
 .portfolio-link.sum2 {
     background: url("img/sum2.png");
     background-size: 75vh;
-    background-position: 49vh -18vh;
+    background-position: 45vh -14vh;
 }
 
 .portfolio-link.sum3 {
@@ -217,6 +219,7 @@ body{
     align-items: center;
     height: 10vh;
     margin-top: 6vh;
+    margin-bottom: 4vh;
     padding-left: 10vh;
     padding-right: 10vh;
 }
@@ -252,4 +255,57 @@ body{
 
 .ad-samurai .footer .line2 {
     width: 74%;
+}
+
+.ad-samurai .content {
+    display: flex;
+    justify-content: center;
+    gap: 6vh;
+}
+.ad-samurai .display {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.ad-samurai .content .display .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 4vh;
+}
+.ad-samurai .content .display .row .poster {
+    width: 20vh;
+    height: 30vh;
+    border-radius: 18px;
+}
+
+.ad-samurai .content .display .row .poster.one{
+    background: url("img/samurai-poster.jpg");
+    background-size: cover;
+}
+
+
+.ad-samurai .content .display .row .poster.two{
+    background: url("img/samurai-poster4.jpg");
+    background-size: 30vh;
+}
+
+.ad-samurai .content .display .row .poster.four{
+    background: url("img/samurai-poster2.jpg");
+    background-size: 32vh;
+    background-position: -6vh;
+}
+
+.ad-samurai .content .display .row .poster.three{
+    background: url("img/samurai-poster3.jpg");
+    background-size: cover;
+    background-position: -6vh;
+}
+
+.ad-samurai .content .final-samurai {
+    background: url("img/samurai-final.jpg");
+    height: 80vh;
+    width: 60vh;
+    background-size: 60vh;
+    border-radius: 18px;
 }
