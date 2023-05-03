@@ -427,7 +427,7 @@ body{
     font-weight: 300;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 18px;
+    font-size: 3vh;
     line-height: 4vh;
 }
 
@@ -524,3 +524,120 @@ body{
     width: 60%
 }
 
+.da-tv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.da-tv .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.da-tv .header .title {
+    font-weight: 500;
+    font-size: 4vh;
+    border-bottom: 1px white solid;
+}
+
+.da-tv .header .subtitle {
+    color: grey;
+}
+
+.da-tv .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.da-tv .footer .line,.da-tv .footer .line2, .da-tv .footer .line3 {
+    border: 1px grey solid;
+    margin-top: 2vh;
+}
+.da-tv .footer .line {
+    width: 9%;
+}
+
+.da-tv .footer .text {
+    margin-right: 5px;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.da-tv .footer .line2 {
+    width: 2%;
+}
+
+.da-tv .footer .line3 {
+    width: 60%
+}
+
+.da-tv .content {
+    height: 63vh;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    gap: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.da-tv .content .tv {
+    height: 100%;
+    width: 60%;
+    background-image: url("img/tv.jpg");
+    background-size: 150%;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.da-tv .content .pfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.da-tv .content .pfp .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.da-tv .content .pfp .row .bird1{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("img/bird_1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.da-tv .content .pfp .row .bird2{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("img/bird_2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.da-tv .content .pfp .row .bird3{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("img/bird_3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.da-tv .content .pfp .row .bird4{
+    height: 30vh;
+    width: 30vh;
+    background-image: url("img/bird_4.png");
+    background-size: cover;
+    background-position: center;
+}
